@@ -149,21 +149,24 @@ ul.menu-list {
       transition: opacity 0.2s ease-in;
 
       & .photo-card {
-        height: 50%;
+        height: 48%;
       }
 
       #photo-card-one {
         background: url(../images/mobile-image-hero-1.jpg) no-repeat center;
+        background-size: cover;
       }
       #photo-card-two {
         background: url(../images/mobile-image-hero-2.jpg) no-repeat center;
+        background-size: cover;
       }
       #photo-card-three {
         background: url(../images/mobile-image-hero-3.jpg) no-repeat center;
+        background-size: cover;
       }
 
       & .text-card {
-        height: 50%;
+        height: 52%;
 
         & p {
           width: auto;
@@ -201,7 +204,7 @@ ul.menu-list {
 
   .buttons {
     position: absolute;
-    top: 50%;
+    top: 48%;
     right: 0;
     transform: translateY(-100%);
     display: flex;
