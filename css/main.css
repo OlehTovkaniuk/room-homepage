@@ -20,7 +20,6 @@ li {
 
 p {
   margin: 20px;
-  width: 100%;
 }
 
 h2 {
@@ -237,13 +236,17 @@ ul.menu-list.active {
   outline: none;
 }
 
+.about {
+  margin-top: 50px;
+}
+
 .about .about-block {
   -ms-grid-column: 1;
-  -ms-grid-column-span: 7;
-  grid-column: 1/8;
+  -ms-grid-column-span: 8;
+  grid-column: 1/9;
 }
 
 .about .about-block img {
-  width: 100vw;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

@@ -26,7 +26,6 @@ li{
 
 p {
   margin: 20px;
-  width: 100%;
 }
 
 h2 {
@@ -232,11 +231,12 @@ ul.menu-list {
 }
 
 .about {
+  margin-top: 50px;
   .about-block {
-    grid-column: 1/8;
+    grid-column: 1/9;
 
     & img {
-      width: 100vw;
+      width: 100%;
     }
   }
 }
