@@ -249,4 +249,37 @@ ul.menu-list.active {
 .about .about-block img {
   width: 100%;
 }
+
+@media screen and (min-width: 540px) {
+  body {
+    font-size: 16px;
+  }
+  body .slider .slides-box .slide .text-card a.cta-button {
+    bottom: 2.5em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slider .slides-box .slide .photo-card {
+    height: 70%;
+  }
+  .slider .slides-box .slide .text-card {
+    height: 30%;
+  }
+  .slider .buttons {
+    top: 70%;
+  }
+  .toggler .toggler-line {
+    height: 3px;
+    width: 35px;
+    background-color: black;
+    margin: 5px 5px 5px 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

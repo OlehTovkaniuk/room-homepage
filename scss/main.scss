@@ -241,6 +241,48 @@ ul.menu-list {
   }
 }
 
+// Big mobile screen
+
+@media screen and (min-width: 540px){
+  body {
+    font-size: 16px;
+
+    .slider .slides-box .slide .text-card a.cta-button {
+      bottom: 2.5em;
+    }
+  }
+}
+
+// Tablet
+
+@media screen and (min-width: 768px) {
+  .slider .slides-box .slide .photo-card {
+    height: 70%;
+  }
+
+  .slider .slides-box .slide .text-card {
+    height: 30%;
+  }
+
+  .slider .buttons {
+    top: 70%;
+  }
+
+  .toggler .toggler-line {
+    height: 3px;
+    width: 35px;
+    background-color: black;
+    margin: 5px 5px 5px 40px;
+  }
+}
+
+// big tablet or small laptop
+
+@media screen and (min-width: 1024px){
+  body {
+    font-size: 18px;
+  }
+}
 
 
 
