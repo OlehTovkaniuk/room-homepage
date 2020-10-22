@@ -3,7 +3,7 @@ const slides = document.querySelectorAll('.slide');
 const prevBtn = document.querySelector('#button-left');
 const nextBtn = document.querySelector('#button-right');
 const auto = true;
-const intervalTime = 5000;
+const intervalTime = 7000;
 let slideInterval;
 
 
